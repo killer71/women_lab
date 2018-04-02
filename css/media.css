@@ -1,0 +1,663 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1600px) {
+    #video::after {
+        background-position: -114px 0;
+    }
+    #lesonss::before {
+        background-position: -70px -30px;
+    }
+}
+
+@media only screen and (max-width : 1400px) {
+    #kosmetika::after {
+        background-position: -236px 0;
+    }
+    #skills::before {
+        background-position: -237px -4px;
+    }
+    #lesonss::after {
+        background-position: 50px 80px;
+    }
+    .header_content h2 {
+        font-size: 30px;
+        padding-top: 80px;
+        line-height: 35px;
+    }
+    #kosmetika::before {
+        top: -10px;
+    }
+}
+
+@media only screen and (max-width : 1280px) {
+    #main_head {
+        padding-bottom: 30px;
+    }
+    .header_content h2 {
+        font-size: 25px;
+        padding-top: 60px;
+        line-height: 30px;
+    }
+    .header_content_txt {
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 45px;
+    }
+    a.mouse_white {
+        margin-top: 40px;
+    }
+    .header_content form {
+        padding-top: 40px;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .header_content h2 {
+        padding-top: 50px;
+    }
+    .header_content_txt {
+        margin-top: 40px;
+    }
+
+    #video::after {
+        background-position: 0 0;
+    }
+    #lesonss::before {
+        background-position: -120px -115px;
+    }
+
+
+    .logo h1 {
+        font-size: 25px;
+    }
+    .logo p {
+        font-size: 11px;
+    }
+    .top_line .main_mnu ul li a {
+        font-size: 10px;
+    }
+    .phone_wrap-phone {
+        font-size: 15px;
+    }
+    .phone_wrap-phone a {
+        font-size: 12px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    #kosmetika::before, #video::before, #training::before, #portfolio::before, #footer_wr::before {
+        top: -10px;
+    }
+    .phone_wrap {
+        float: none;
+    }
+    .header_content h2 {
+        font-size: 20px;
+        padding-top: 40px;
+        line-height: 20px;
+    }
+    .header_content_txt {
+        font-size: 15px;
+        line-height: 15px;
+        margin-top: 30px;
+    }
+    .header_content form input.pocta {
+        padding: 7px 0 7px 22px;
+        font-size: 12px;
+    }
+    .header_content form button.submit {
+        font-size: 12px;
+    }
+    a.mouse_white {
+        margin-top: 35px;
+    }
+    .header_content form {
+        padding-top: 30px;
+    }
+
+
+    .contact-wrap {
+        display: block;
+        margin-top: -35px;
+        padding-right: 100%;
+    }
+    .contact-wrap .wrap_icons,
+    .contact-wrap .phone_wrap-icons {
+        display: none;
+    }
+    #footer_wr .contact-wrap {
+        display: none;
+    }
+    .headhesive {
+        transform: none;
+    }
+
+
+
+    #kosmetika::after {
+        background-position: -320px 0;
+    }
+    #skills::before {
+        background-position: -321px -4px;
+    }
+    .kosmetika_gallery .col-xs-6 {
+        padding-top: 4px;
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+    }
+    .main_mnu {
+        display: none;
+        background-color: #fff;
+        color: #222;
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+        border: 2px solid #e0446e;
+        border-top: none;
+    }
+    .top_line, .bottom_line {
+        height: 60px;
+    }
+    .logo {
+        padding-top: 7px;
+    }
+    .main_mnu ul li {
+        padding-bottom: 5px;
+        padding-top: 0;
+        display: block;
+    }
+    .main_mnu ul li:first-child {
+        padding-left: 7px;
+    }
+    .top_line .main_mnu ul li a {
+        font-size: 14px;
+        display: inline-block;
+        padding: 5px 5px;
+        transition: 0.1s ease;
+    }
+    .top_line .main_mnu ul li a:hover {
+        background: #fff;
+        width: 100%;
+    }
+    .toggle-mnu {
+        margin-top: 18px;
+    }
+    #kosmetika, #skills, #video, #lesonss, #training, #portfolio {
+        padding-top: 40px;
+    }
+
+    .skills_item p {
+        font-size: 17px;
+    }
+    body {
+        font-size: 17px;
+    }
+    .lesonss_wrap_titl {
+        padding-bottom: 0;
+    }
+    .lesonss_wrap {
+        line-height: 25px;
+    }
+    #training {
+        padding-bottom: 70px;
+    }
+    .teacher_items {
+        font-size: 17px;
+    }
+    .teacher_items ul li {
+        line-height: 23px;
+    }
+    .teacher_img p {
+        font-size: 12px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .quote_wr {
+        padding-top: 20px;
+        float: none;
+        width: 100%;
+    }
+    .training_item_txt {
+        font-size: 13px;
+        padding-left: 101px;
+    }
+    .main_mnu_bottom {
+        margin-left: 80px;
+    }
+    .main_mnu_bottom ul li {
+        padding-top: 20px;
+    }
+    .main_mnu_bottom ul li a {
+        font-size: 13px;
+    }
+    #main_head {
+        background-position: right top;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #main_head video {
+        display: none;
+    }
+    #main_head {
+        background-image: url(../img/bg_top.jpg);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: calc(865px) top;
+    }
+
+    #lesonss::after {
+        background-position: 115px 80px;
+    }
+    .kosmetika_gallery .col-xs-6 {
+        padding-top: 4px;
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+    }
+    .quote_wr::after {
+        right: 25px;
+    }
+
+
+    .teacher_img {
+        padding-top: 35px;
+    }
+
+    .video_t {
+        margin-top: 25px;
+    }
+    .toggle-mnu {
+        margin-right: 30px;
+    }
+    .main_mnu {
+        margin-left: 80px;
+    }
+    .header_content h2 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .header_content_txt {
+        font-size: 18px;
+        line-height: 20px;
+        margin-top: 60px;
+    }
+    .header_content_proc {
+        font-size: 50px;
+        margin-top: 57px;
+    }
+    .video_wrap video {
+        transform: translate(10%, 0px);
+    }
+    .circle_1::before {
+        top: 65px;
+    }
+    .circle_2::before {
+        top: 70px;
+    }
+    .circle_3::before {
+        top: 77px;
+    }
+    .circle_4::before {
+        top: 67px;
+    }
+    .training_item_txt {
+        float: none;
+    }
+    .training_item_txt {
+        font-size: 13px;
+        padding-left: 75px;
+    }
+    .training_items_wr {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    #training h3 {
+        padding-bottom: 30px;
+    }
+    .teacher_img {
+        text-align: center;
+    }
+    .teacher_img p {
+        text-align: center;
+    }
+    .teacher_items {
+        padding: 0;
+        padding-top: 20px;
+    }
+    #portfolio .port_gallery .col-xs-4 {
+        padding: 0;
+    }
+    .main_mnu_bottom {
+        margin-left: 50px;
+    }
+    .main_mnu_bottom ul li {
+        padding-left: 3px;
+    }
+    .main_mnu_bottom ul li a {
+        font-size: 11px;
+    }
+    #lesonss, #video, #teacher, #training, #skills, #kosmetika, #main_head {
+        padding-bottom: 50px;
+    }
+    .logo {
+        text-align: left;
+    }
+    .logo h1 {
+        font-size: 20px;
+    }
+    .logo p {
+        font-size: 10px;
+    }
+    .main_mnu_bottom ul li {
+        padding-top: 15px;
+    }
+    #kosmetika .kosmetika_gallery {
+        text-align: center;
+    }
+    #skills .skills_item {
+        padding-bottom: 40px;
+    }
+    .skills_item p {
+        padding-top: 10px;
+    }
+    .skills_item .img_wrap img {
+        margin-bottom: 10px;
+    }
+    .teacher_img p {
+        font-size: 17px;
+    }
+    .lesonss_wrap_right ul li:nth-child(4) {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .header_content form input.pocta {
+        width: 255px;
+    }
+    .header_content form button.submit {
+        width: 160px;
+    }
+    #main_head {
+        background-position: right top;
+    }
+    #lesonss::after {
+        background-position: 205px 80px;
+    }
+    #lesonss::after {
+        display: none;
+    }
+
+
+    .skills_item p {
+        font-size: 15px;
+    }
+    h3  {
+        font-size: 25px;
+    }
+    h3::after {
+        top: 35px;
+    }
+    .header_content h2 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+    .main_mnu_bottom {
+        margin-left: 30px;
+    }
+    .port_gallery {
+        padding-top: 45px;
+    }
+    .main_mnu_bottom {
+        display: none;
+    }
+    a.mouse_pink {
+        margin-top: 35px;
+    }
+    a.mouse_brown {
+        margin-top: 35px;
+    }
+    .video_wrap,
+    .kosmetika_gallery,
+    .teacher_img {
+        padding-top: 35px;
+    }
+    .video_wrap video {
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .logo {
+        width: 110px;
+    }
+
+    .header_content form button.submit {
+        width: 112px;
+        padding: 12px 17px;
+    }
+    .header_content form input.pocta {
+        width: 175px;
+        padding: 5px 0 5px 22px;
+    }
+    #kosmetika::before, #video::before, #training::before, #portfolio::before, #footer_wr::before {
+        top: -10px;
+    }
+    .header_content form input.pocta {
+        float: left;
+    }
+
+    .contact-wrap {
+        display: block;
+        margin-top: -20px;
+        padding-right: 50%;
+    }
+    .contact-wrap .phone_wrap-phone a {
+        display: none;
+    }
+    .contact-wrap .phone_wrap-phone,
+    .contact-wrap .phone_wrap-phone a {
+        font-size: 12px;
+    }
+
+    .phone_wrap-phone p {
+        padding-left: 130px;
+    }
+
+    .logo h1 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .logo p {
+        font-size: 8px;
+    }
+    .teacher_items ul li {
+        line-height: 15px;
+    }
+    .teacher_img p {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .header_content form button.submit {
+        margin: 0 auto;
+    }
+    .skills_item p {
+        line-height: 15px;
+    }
+    .lesonss_wrap_right {
+        padding-top: 20px;
+    }
+    .lesonss_wrap p {
+        line-height: 17px;
+    }
+    .lesson_button {
+        padding-top: 45px;
+    }
+    .training_items_wr {
+        padding-top: 25px;
+        line-height: 23px;
+    }
+    .training_items_top {
+        padding-top: 55px;
+    }
+    .training_item_txt {
+        font-size: 12px;
+    }
+    .top_line .main_mnu ul li a {
+        font-size: 11px;
+    }
+    .main_mnu {
+        margin-left: 35px;
+    }
+    h3::after {
+        top: 25px;
+    }
+    .header_content_txt {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .header_content h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    #main_head .logo {
+        padding-top: 11px;
+    }
+    h3 {
+        font-family: "OpenSansBold", sans-serif;
+        font-size: 14px;
+    }
+    /*.header_content form input.pocta {*/
+        /*width: 200px;*/
+        /*padding: 7px 0 7px 22px;*/
+        /*margin-bottom: 17px;*/
+    /*}*/
+    .header_content form a.submit {
+        margin-left: 3px;
+        padding: 9px 17px;
+    }
+    .header_content_proc {
+        font-size: 28px;
+    }
+    .lesonss_wrap p {
+        font-size: 14px;
+    }
+    .teacher_items ul li {
+        font-size: 14px;
+    }
+    .quote_wr p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .port_gallery {
+        padding-top: 30px;
+    }
+    #main_head form {
+        text-align: center;
+    }
+    #polit_konf h4 {
+        font-size: 17px;
+    }
+    #polit_konf p {
+        font-size: 15px;
+    }
+    #polit_konf {
+        height: 290px;
+        max-width: 270px;
+    }
+
+    #thank-you {
+        max-width: 280px;
+        height: 130px;
+        background: #fff;
+        margin: auto;
+        position: relative;
+        text-align: center;
+        padding: 25px 25px;
+    }
+
+    #thank-you h4 {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #thank-you span {
+        font-size: 17px;
+    }
+
+    #thank-you p {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    #kosmetika::after {
+        background-position: -286px 0;
+    }
+    #skills::before {
+        background-position: -287px -4px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    #main_head {
+        background-position: calc(573px) top;
+    }
+    .circle_3::before {
+        top: 140px;
+    }
+    #teacher {
+        padding-top: 30px;
+    }
+    .header_content form button.submit {
+        width: 110px;
+        padding: 12px 17px;
+    }
+    .header_content form input.pocta {
+        width: 165px;
+        padding: 5px 0 5px 22px;
+    }
+}
+
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media (min-height: 680px) and (min-width : 1400px) {
+
+}
